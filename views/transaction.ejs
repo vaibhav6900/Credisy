@@ -1,0 +1,9 @@
+
+<%- include("partials/header"); -%>
+<h2 style="text-align: center;">TRANSFER TO:</h2>
+<form action="/transaction" method="post">
+    <input class="ip" type="email" placeholder="Enter email" name="receiver"><br>
+    <input class="ip" type="number" placeholder="Enter amount" name="amount"><br>
+    <input class="button" id="submitbtn" type="submit" value="Send">
+</form>
+<%- include("partials/footer"); -%>

@@ -1,0 +1,30 @@
+
+<%- include("partials/header"); -%>
+<h1>CUSTOMER INFO</h1>
+
+<table id="table">
+    <tr>
+        <th>NAME</th>
+        <th>EMAIL</th>
+        <th>AMOUNT</th>
+        <th>TRANSFER</th>
+    </tr>
+    <%for(let i=0;i<newListCustomers.length;i++){%>
+        <tr>
+            <td><%=newListCustomers[i].name%></td>
+            <td><%=newListCustomers[i].email%></td>
+            <td><%=newListCustomers[i].amount%></td>
+            <form action="/transaction">
+              
+                <td><button type="submit" class="button">transfer</button></td>
+
+            </form>
+           
+        </tr>
+          
+       <%}%>
+       
+       
+    
+</table>
+<%- include("partials/footer"); -%>
