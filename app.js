@@ -35,68 +35,68 @@ const Customer=mongoose.model("Customer",customerSchema);
  })
  const History=mongoose.model("History",historySchema);
 
-// const customer1=new Customer({
-//     name:"Vaibhav",
-//     email:"starryvaibh786@gmail.com",
-//     amount:50000
-// });
-// const customer2=new Customer({
-//     name:"Divyansh",
-//     email:"divyansh75@gmail.com",
-//     amount:13000
-// });
-// const customer3=new Customer({
-//     name:"Ajay",
-//     email:"jay86@gmail.com",
-//     amount:10000
-// });
-// const customer4=new Customer({
-//     name:"Tanishka",
-//     email:"tanishka98@gmail.com",
-//     amount:5500
-// });
-// const customer5=new Customer({
-//     name:"Agrim",
-//     email:"adarsh23@gmail.com",
-//     amount:7600
-// });
-// const customer6=new Customer({
-//     name:"Pratham",
-//     email:"vishu2@gmail.com",
-//     amount:4500
-// });
-// const customer7=new Customer({
-//     name:"Ashi",
-//     email:"ashi35@gmail.com",
-//     amount:6000
-// });
-// const customer8=new Customer({
-//     name:"Ashutosh",
-//     email:"ashu56@gmail.com",
-//     amount:12000
-// });
-// const customer9=new Customer({
-//     name:"Akash",
-//     email:"akkav78@gmail.com",
-//     amount:15000
-// });
-// const customer10=new Customer({
-//     name:"Rohit",
-//     email:"shrma@25gmail.com",
-//     amount:9000
-// });
-//  const defaultCustomers=[customer1,customer2,customer3,customer4,customer5,customer6,customer7,customer8,customer9,customer10];
-//  Customer.insertMany(defaultCustomers,function(err)
+const customer1=new Customer({
+    name:"Vaibhav",
+    email:"starryvaibh786@gmail.com",
+    amount:50000
+});
+const customer2=new Customer({
+    name:"Divyansh",
+    email:"divyansh75@gmail.com",
+    amount:13000
+});
+const customer3=new Customer({
+    name:"Ajay",
+    email:"jay86@gmail.com",
+    amount:10000
+});
+const customer4=new Customer({
+    name:"Tanishka",
+    email:"tanishka98@gmail.com",
+    amount:5500
+});
+const customer5=new Customer({
+    name:"Agrim",
+    email:"adarsh23@gmail.com",
+    amount:7600
+});
+const customer6=new Customer({
+    name:"Pratham",
+    email:"vishu2@gmail.com",
+    amount:4500
+});
+const customer7=new Customer({
+    name:"Ashi",
+    email:"ashi35@gmail.com",
+    amount:6000
+});
+const customer8=new Customer({
+    name:"Ashutosh",
+    email:"ashu56@gmail.com",
+    amount:12000
+});
+const customer9=new Customer({
+    name:"Akash",
+    email:"akkav78@gmail.com",
+    amount:15000
+});
+const customer10=new Customer({
+    name:"Rohit",
+    email:"shrma@25gmail.com",
+    amount:9000
+});
+ const defaultCustomers=[customer1,customer2,customer3,customer4,customer5,customer6,customer7,customer8,customer9,customer10];
+ Customer.insertMany(defaultCustomers,function(err)
  
-//  {
-//     if(err)
-//     {
-//         console.log(err);
-//     }
-//     else{
-//         console.log("successfully saved default customers  to database");
-//     }
-//  });
+ {
+    if(err)
+    {
+        console.log(err);
+    }
+    else{
+        console.log("successfully saved default customers  to database");
+    }
+ });
  
 
  
